@@ -12,7 +12,7 @@ body{
     max-width:1000px;
     height: 5000px;
     margin: 0 auto;
-    background: linear-gradient(to bottom,#5fc1c9 0%,#fce4c2 48%);
+    background: linear-gradient(to bottom,#5fc1c9 0%,#e9efb0 48%);
 }
 /*main title start*/
 .title-box{
@@ -35,3 +35,4 @@ body{
 .main-title a img{
     width: 100%;
 }
+/*item start*/
