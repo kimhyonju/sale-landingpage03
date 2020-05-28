@@ -19,7 +19,8 @@ body{
     width:100%;
 }
 .title-box a img{
-    margin-left: -100px;
+    margin-left: -12%;
+    width: 120%;
 }
 /*coupon start*/
 .coupon-area{
@@ -36,3 +37,77 @@ body{
     width: 100%;
 }
 /*item start*/
+#item-area{
+    width: 100%;
+}
+#item-row{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.item-box{
+    width: 38%;
+    background: #fff;
+    border-radius: 20px;
+    border: 3px solid #959495;
+    margin: 0 auto;
+}
+.item-d{
+    width: 90%;
+    margin: 5% auto 0;
+}
+.item-thumnail{
+    width: 90%;
+    padding: 0 5%;
+    background-color: #dbdbdc;
+}
+.item-thumnail:after {
+    content: "";
+    display: block;
+    padding-bottom: 110%;
+  }
+.item-name{
+    width: 90%;
+    margin: 3% auto;
+    color: #464646;
+    font-size: 1em;
+}
+.item-info{
+    width: 90%;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 5%;
+}
+.item-delivery{
+    font-size: 2.8em;
+    font-weight: 600;
+    color: #80b5ad;
+    width: 40%;
+}
+.item-priceinfo{
+    font-size: 1em;
+    color: #000;
+    position: relative;
+    top: 33px;
+}
+.item-price{
+    font-size: 2.8em;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -2px;
+}
+.item-page{
+    width: 80%;
+    height: 3em;
+    margin: 10px auto;
+    background-color: #80b5ad;
+    border-radius: 15px;
+   
+}
+
+.item-page > p{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 10px;
+}
