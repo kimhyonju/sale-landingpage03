@@ -8,3 +8,30 @@ body{
     padding: 0;
     background-color: #fce4c2;
 }
+#back-color{
+    max-width:1000px;
+    height: 5000px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,#5fc1c9 0%,#fce4c2 48%);
+}
+/*main title start*/
+.title-box{
+    width:100%;
+}
+.title-box a img{
+    margin-left: -100px;
+}
+/*coupon start*/
+.coupon-area{
+    display: flex;
+}
+.coupon-area a img{
+    width: 100%;
+}
+/*main title start*/
+.main-title{
+    width: 100%;
+}
+.main-title a img{
+    width: 100%;
+}
