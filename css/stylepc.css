@@ -10,7 +10,6 @@ body{
 }
 #back-color{
     max-width:1000px;
-    height: 5000px;
     margin: 0 auto;
     background: linear-gradient(to bottom,#5fc1c9 0%,#e9efb0 48%);
 }
@@ -43,7 +42,7 @@ body{
 #item-row{
     width: 90%;
     display: flex;
-    margin: 0 auto;
+    margin: 0px auto 50px;
 }
 .item-box{
     width: 38%;
@@ -79,18 +78,24 @@ body{
     margin-left: 5%;
 }
 .item-delivery{
+    width: 40%;
+}
+.item-delivery > p{
     font-size: 2.8em;
     font-weight: 600;
     color: #80b5ad;
-    width: 40%;
 }
 .item-priceinfo{
-    font-size: 1em;
-    color: #000;
     position: relative;
     top: 33px;
 }
+.item-priceinfo > p{
+    color: #000;
+}
 .item-price{
+    width: 45%;
+}
+.item-price > p {
     font-size: 2.8em;
     font-weight: 600;
     color: #000;
